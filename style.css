@@ -1,0 +1,78 @@
+.fontemontserrat{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+.menu{
+    margin: 0px;
+    padding: 0px;
+}
+
+.black{
+  color: black;
+  text-decoration: none;
+  transition: 0.4s; 
+  margin: 0px;
+  padding: 0px;   
+}
+
+.black:hover{
+    opacity: 0.8;
+}
+
+nav{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    height: 10vh;
+    background: aliceblue;
+    border-radius: 10px;
+}
+
+.nav_list{
+    list-style: none;
+    display: flex;
+}
+
+.nav_list li{
+    letter-spacing: 5px;
+    margin-left: 50px;
+}
+
+.section_body{
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    position: relative;
+    top: 200px;
+    color:floralwhite;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+   
+}
+
+.footer_left{
+    position: absolute;
+    top: 150px;
+}
+
+body{
+    background-image: url(./assets/img/img_index/background_index3.jpg);
+    background-repeat: no-repeat center center;
+    background-size: cover;
+    height: 92vh;
+}
+
+.header_logo{
+width: 800px;
+}
+
+.header_login{
+    list-style: none;
+
+}
+
+.button{
+
+}

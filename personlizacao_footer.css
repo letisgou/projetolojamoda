@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Bokor&display=swap');
+
+.fontemontserrat{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+.footer_body{
+height: 200px;
+padding: 50px;
+display: flex;
+gap:50px ;
+background-color: black;
+
+;
+}   
+
+.footer_left{
+height:  px;
+color: white;
+font-family: "Bokor", system-ui;
+;
+}
+.footer_right{
+
+margin-left: 50%;
+color: white;
+
+}
+.logoinstagram{
+background: linear-gradient(, #ff2992, #ff9807);
+border-radius: 9px;
+}
+.footer.list{
+
+
+
+}
