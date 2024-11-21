@@ -18,7 +18,7 @@ background-color: black;
 }   
 
 .footer_left{
-height:  px;
+
 color: white;
 font-family: "Bokor", system-ui;
 ;
@@ -27,14 +27,21 @@ font-family: "Bokor", system-ui;
 
 margin-left: 50%;
 color: white;
-
+font-family: "Bokor", system-ui;
 }
 .logoinstagram{
-background: linear-gradient(, #ff2992, #ff9807);
+background: linear-gradient(green, #ff2992, #ff9807);
 border-radius: 9px;
+padding-left: ;
 }
 .footer.list{
 
 
 
+}
+.footer_img{
+
+width: 50px;
+padding-left: 25px ;
+height: ;
 }
