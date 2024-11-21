@@ -1,8 +1,15 @@
-# ProgamadoresDoFuturo
+# Progamadores do Futuro
 
-EGO CREW, loja underground que quer ser expandir para o mundo todo!
+Esse projeto é inspirado na loja de roupa chamada "CLASS" desenvolvido com **HTML**, **CSS** e **JavaScript**.
 
-Colaboradores
-Enzo Souza (https://github.com/letisgou) //
-Gustavo Duarte (https://github.com/duarttedev) // 
+## 👥 Colaboradores
 
+Enzo Souza (https://github.com/letisgou) **(CSS)**
+Gustavo Duarte (https://github.com/gusttvodev) **(HTML e CSS)**
+Vitor (https://github.com/Pererinha04) **(CSS e JavaScript)**
+
+## 🚀 Tecnologias Utilizadas
+
+- **HTML** - para a estruturação do conteúdo.
+- **CSS** para estilização visual.
+- **JavaScript** para implementar a funcionalidade.
