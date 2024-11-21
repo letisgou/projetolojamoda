@@ -57,13 +57,6 @@ nav{
     top: 150px;
 }
 
-body{
-    background-image: url(./assets/img/img_index/background_index3.jpg);
-    background-repeat: no-repeat center center;
-    background-size: cover;
-    height: 92vh;
-}
-
 .header_logo{
 width: 800px;
 }

@@ -4,7 +4,7 @@ Esse projeto é inspirado na loja de roupa chamada "CLASS" desenvolvido com **HT
 
 ## 👥 Colaboradores
 
-Enzo (https://github.com/letisgou) **(CSS)**
+Enzo Souza (https://github.com/letisgou) **(CSS)** 
 Gustavo Duarte (https://github.com/gusttvodev) **(HTML e CSS)**
 Vitor (https://github.com/Pererinha04) **(CSS e JavaScript)**
 
@@ -13,5 +13,3 @@ Vitor (https://github.com/Pererinha04) **(CSS e JavaScript)**
 - **HTML** - para a estruturação do conteúdo.
 - **CSS** para estilização visual.
 - **JavaScript** para implementar a funcionalidade.
-
-a
