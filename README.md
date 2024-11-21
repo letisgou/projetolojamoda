@@ -1,4 +1,4 @@
-# Progamadores do Futuro
+# Programadores do Futuro
 
 Esse projeto é inspirado na loja de roupa chamada "CLASS" desenvolvido com **HTML**, **CSS** e **JavaScript**.
 
