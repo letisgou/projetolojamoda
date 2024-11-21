@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bokor&display=swap');
 
+.fontemontserrat{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
 .footer_body{
 height: 200px;
 padding: 50px;
