@@ -1,0 +1,40 @@
+.arquivos_img{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.footer_body{
+    position: relative;
+    top: 100px;
+}
+
+.footer_img{
+    position: relative;
+    left: 800px;
+
+}
+#arquivos_modelo1{
+list-style-type: none;
+position: relative;
+left: 400px;
+}
+
+#arquivos_modelo2{
+    list-style: none;
+  
+
+
+}
+
+#arquivos_modelo3{
+list-style: none;
+}
+
+#arquivos_modelo4{
+list-style: none;
+}
+
+#arquivos_modelo5{
+    list-style: none;
+}
