@@ -1,9 +1,9 @@
-.fontemontserrat{
+.fontemontserrat {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
-  }
+}
 
 .h2_text {
     text-align: center;
@@ -24,7 +24,8 @@
 .login_box p {
     font-family: sans-serif;
     font-size: 20px;
-    margin-left: 2px;
+    margin-left: 0.5px;
+    font-weight: 550;
 }
 
 .login_box input {
@@ -53,6 +54,8 @@
     border-radius: 5px;
     cursor: pointer;
     margin-top: 10px;
+    transition: all 0.3s ease;
+    /* Adiciona transição suave no botão */
 }
 
 .login_box button:hover {
@@ -81,19 +84,8 @@
 .register_body p {
     font-family: sans-serif;
     font-size: 20px;
-    margin-left: 2px;
-}
-
-.register_box input {
-    display: grid;
-    width: 400px;
-    height: 25px;
-    padding: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border: solid 1.8px black;
-    border-radius: 2px;
-    background-color: transparent;
+    margin-left: 0.5px;
+    font-weight: 550;
 }
 
 .register_box input {
@@ -112,7 +104,12 @@ input::placeholder {
     color: grey;
     font-family: sans-serif;
     font-size: 16px;
-    padding-left: 2%;
+    padding-left: 1%;
+    transition: 0.1s ease;
+}
+
+input:focus::placeholder {
+    opacity: 0;
 }
 
 .register_box button {
@@ -125,6 +122,8 @@ input::placeholder {
     border-radius: 5px;
     cursor: pointer;
     margin-top: 10px;
+    transition: all 0.3s ease;
+    /* Adiciona transição suave no botão */
 }
 
 .register_box button:hover {
