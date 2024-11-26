@@ -49,14 +49,15 @@ nav{
     font-size: 40px;
     position: relative;
     top: 200px;
-    color:floralwhite;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-   
+    color:black;
+    font-family:'Courier New', Courier, monospace;
 }
 
 .footer_left{
-    position: absolute;
-    top: 150px;
+    position: relative;
+    text-align: center;
+    top: 750px;
+    right: 600px;
 }
 
 .header_logo{
@@ -86,9 +87,33 @@ nav{
     cursor: pointer;
     border-radius: 8px;
     transition: 0.5s;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .button:hover{
     opacity: 0.7;
 }
+.footer_right{
+    position: relative;
+    text-align: center;
+    left: 600px;
+    top: 150px;
+}
+.footer_img{
+    text-align: center;
+    position: relative;
+    top: 350px;
+    left: 550px;
+}
 
+
+.social_footer{
+    position: relative;
+    top: 60px;
+}
+
+#background{
+    background-image: url(./assets/img/img_index/background_index3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

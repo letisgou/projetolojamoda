@@ -1,8 +1,15 @@
 .arquivos_img{
-    margin: 0;
-    padding: 0;
-    text-align: center;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+   flex-wrap: wrap;
+    margin-left: 1.8x;
+    position: relative;
+    top: 50px;
+    border-radius: 100px;
 }
+
 
 .footer_body{
     position: relative;
@@ -17,24 +24,141 @@
 #arquivos_modelo1{
 list-style-type: none;
 position: relative;
-left: 400px;
+left: 150px;
+transition: 0.4s;
+
+}
+
+#arquivos_modelo1:hover #texto_um{
+    display: block;
+    opacity: 1;
+}
+
+#arquivos_modelo1:hover{
+     opacity: 0.7;
 }
 
 #arquivos_modelo2{
     list-style: none;
-  
-
-
+    position: relative;
+    left: 150px;
+    transition: 0.3s;
 }
+
+#arquivos_modelo2:hover #texto_dois{
+    display: block;
+    opacity: 1;
+}
+
+#arquivos_modelo2:hover{
+    opacity: 0.7;
+}
+   
 
 #arquivos_modelo3{
 list-style: none;
+position: relative;
+left: 150px;
+top: 50px;
+transition: 0.3s;
+}
+
+#arquivos_modelo3:hover #texto_tres{
+    display: block;
+    opacity: 1;
+}
+
+#arquivos_modelo3:hover{
+    opacity: 0.7;
 }
 
 #arquivos_modelo4{
 list-style: none;
+left: 150px;
+position: relative;
+right: 800px;
+top: 100px;
+transition: 0.3s;
+}
+
+#arquivos_modelo4:hover #texto_quatro{
+    display: block;
+    opacity: 1;
+}
+
+#arquivos_modelo4:hover{
+    opacity: 0.7;
 }
 
 #arquivos_modelo5{
     list-style: none;
+    position: relative;
+    left: 200px;
+    transition: 0.3s;
 }
+
+#arquivos_modelo5:hover #texto_cinco{
+    display: block;
+    opacity: 1;
+}
+
+#arquivos_modelo5:hover{
+    opacity: 0.7;
+} 
+
+img{
+    border-radius: 20px;
+}
+#texto_um{
+    text-align: center;
+    position: relative;
+    top: 300px;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: none;
+    color:black
+}
+
+
+#texto_dois{
+    text-align: center;
+    position: relative;
+    top: 300px;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: none;
+    color:black
+}
+
+#texto_tres{
+    text-align: center;
+    position: relative;
+    top: 300px;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: none;
+    color:black
+}
+
+#texto_quatro{
+    text-align: center;
+    position: relative;
+    top: 300px;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: none;
+    color:black
+}
+
+#texto_cinco{
+    text-align: center;
+    position: relative;
+    top: 200px;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: none;
+    color:black
+}
+
+
+
