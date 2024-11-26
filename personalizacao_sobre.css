@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+.fontemontserrat{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+.menu{
+    margin: 0px;
+    padding: 0px;
+}
+
+.black{
+  color: black;
+  text-decoration: none;
+  transition: 0.4s; 
+  margin: 0px;
+  padding: 0px; 
+  position: relative;
+  right: 200px;  
+}
+
+.black:hover{
+    opacity: 0.8;
+}
+
+nav{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    height: 10vh;
+    background: aliceblue;
+    border-radius: 10px;
+}
+
+.nav_list{
+    list-style: none;
+    display: flex;
+}
+
+.nav_list li{
+    letter-spacing: 5px;
+    margin-left: 50px;
+}
+
+.section_body{
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    position: relative;
+    top: 200px;
+    color:floralwhite;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+   
+}
+
+.footer_left{
+    position: absolute;
+    top: 150px;
+}
+
+.header_logo{
+    position: relative;
+    right: 190px;
+
+}
+
+.header_login{
+    list-style: none;
+    position: relative;
+    right: 20px;
+}
+
+.button{
+    background: transparent;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border: none;
+    position: relative;
+    top: 40px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.button:hover{
+    opacity: 0.7;
+}
+
+.texto_sobre{
+text-align: center;
+background-color: purple;
+justify-content: center;
+border-radius: 10px;    
+font-size: 16px;
+background: transparent;
+color: white;
+border: 1px solid rgba(255, 255, 255, .2);
+backdrop-filter: blur(3px);
+box-shadow: 0 0 10px rgba(0, 0, 0,);
+font-family: "Open Sans", sans-serif;
+font-optical-sizing: auto;  
+font-weight: 100;
+font-style: normal;
+font-variation-settings:
+  "wdth" 100;
+position: relative;
+margin-top: 400px;
+
+}
+
+
+    
+body{
+background: seagreen;
+background: url(./assets/img/img_index/background_index3.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: top;
+}
+footer{
+background-color: rgb(111, 255, 0);
+background-size: cover;
+}
+
