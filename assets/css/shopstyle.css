@@ -1,9 +1,13 @@
+body {
+    background-color: pink;
+}
+
 .shop_body {
     display: flex;
     width: 100%;
     height: 100%;
     gap: 10px;
-   flex-wrap: wrap;
+    flex-wrap: wrap;
     margin-left: 1.8x;
 
 }
@@ -11,13 +15,27 @@
 .shop_shirt {
     margin-top: 10px;
     margin-right: 10px;
+    transition: .35s;
+}
+
+.shop_shirt:hover {
+    opacity: .9;
+    transform: scale(0.9);
+    font-size: 50px;
+
 }
 
 .shirt_information {
     flex-direction: column;
     font-size: 20px;
     padding: 5px;
+    transition: .35s;
     
+}
+
+.shirt_information:hover {
+    font-size: 25px;
+    transform: scale(1);
 }
 
 #juros::after {
