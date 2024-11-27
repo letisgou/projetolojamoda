@@ -53,6 +53,7 @@ nav{
     font-family:'Courier New', Courier, monospace;
 }
 
+<<<<<<< Updated upstream
 .footer_left{
     position: relative;
     text-align: center;
@@ -60,6 +61,8 @@ nav{
     right: 600px;
 }
 
+=======
+>>>>>>> Stashed changes
 .header_logo{
     position: relative;
     right: 190px;

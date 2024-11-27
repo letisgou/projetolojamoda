@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 .fontemontserrat{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -55,11 +56,6 @@ nav{
    
 }
 
-.footer_left{
-    position: absolute;
-    top: 150px;
-}
-
 .header_logo{
     position: relative;
     right: 190px;
@@ -93,9 +89,8 @@ nav{
     opacity: 0.7;
 }
 
-.texto_sobre{
-text-align: center;
-background-color: purple;
+.texto_sobre{   
+text-align: center; 
 justify-content: center;
 border-radius: 10px;    
 font-size: 16px;
@@ -112,20 +107,48 @@ font-variation-settings:
   "wdth" 100;
 position: relative;
 margin-top: 400px;
-
+    padding-top: 10px;
+    padding-bottom: 10px;
+ 
 }
 
 
     
 body{
-background: seagreen;
 background: url(./assets/img/img_index/background_index3.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: top;
 }
-footer{
-background-color: rgb(111, 255, 0);
-background-size: cover;
+a{
+    text-decoration: none;
 }
+i{
+    text-decoration: none;
+    
+}
+footer{
+    background: black;
+    border-radius: 10px;
+}
+footer .container{
+    display: flex;
+    color: white;
+}
+footer.container ul{
+    width: 25%;
+}
+footer .container .redes_sociais i{
+margin-right: 16px;
+}
+footer .container ul > p{
+    margin-bottom: 20px;
+}
+footer .container li{
+    margin: 1px 0;
+}
+footer .container a{
+    color: white;
+}
+
 
