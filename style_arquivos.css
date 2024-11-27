@@ -181,6 +181,13 @@ footer .container li{
 footer .container a{
     color: white;
 }
+body{
+    background: url(/assets/img/img_modelos/900w-8A7LMHVLnUw.webp);
+    background-size: cover;
+    background-repeat: repeat-x;
+   
+  
+}
 
 
 
