@@ -97,7 +97,7 @@ font-size: 16px;
 background: transparent;
 color: rgb(62, 62, 62);
 border: 11px solid rgba(255, 255, 255, .2);
-backdrop-filter: blur(25px);
+backdrop-filter: blur(5px);
 box-shadow: 0 0 10px rgba(0, 0, 0,);
 font-family: "Open Sans", sans-serif;
 font-optical-sizing: auto;  
@@ -111,8 +111,6 @@ margin-top: 400px;
     padding-bottom: 10px;
  
 }
-
-
     
 body{
 background: url(./assets/img/img_fundo_sobre/plano_de_fundo-sobre1.webp);
@@ -151,3 +149,5 @@ footer .container li{
 footer .container a{
     color: white;
 }
+
+
