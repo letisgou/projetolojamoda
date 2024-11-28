@@ -113,7 +113,7 @@ margin-top: 400px;
 }
     
 body{
-background: url(./assets/img/img_fundo_sobre/plano_de_fundo-sobre1.webp);
+background: url(../img/img_fundo_sobre/plano_de_fundo-sobre1.webp);
 background-size: cover;
 background-position: top;   
 }
