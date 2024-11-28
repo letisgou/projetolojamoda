@@ -1,3 +1,12 @@
+.bokor-regular {
+    font-family: "Bokor", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+
+
 .arquivos_img{
     display: flex;
     width: 100%;
@@ -103,7 +112,6 @@ img{
     position: relative;
     top: 300px;
     font-size: 25px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: none;
     color:black
 }
@@ -114,7 +122,6 @@ img{
     position: relative;
     top: 300px;
     font-size: 25px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: none;
     color:black
 }
@@ -124,7 +131,6 @@ img{
     position: relative;
     top: 300px;
     font-size: 25px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: none;
     color:black
 }
@@ -134,7 +140,6 @@ img{
     position: relative;
     top: 300px;
     font-size: 25px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: none;
     color:black
 }
@@ -144,11 +149,10 @@ img{
     position: relative;
     top: 200px;
     font-size: 25px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: none;
     color:black
 }
-/*personalizacao footer*/
+
 a{
     text-decoration: none;
 }
@@ -156,6 +160,7 @@ i{
     text-decoration: none;
     
 }
+
 footer{
     background: black;
     border-radius: 5px;
@@ -167,7 +172,7 @@ footer .container{
    margin-top: 70px;
 }
 footer.container ul{
-    width: 25px;
+    width: 25%;
 }
 footer .container .redes_sociais i{
 margin-right: 16px;
@@ -185,8 +190,6 @@ body{
     background: url(/assets/img/img_modelos/900w-8A7LMHVLnUw.webp);
     background-size: cover;
     background-repeat: repeat-x;
-   
-  
 }
 
 
