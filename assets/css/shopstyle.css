@@ -1,5 +1,9 @@
 body {
-    background-color: pink;
+    background: url(/assets/img/img_shop/6575426-papel-de-parede-rosa-cute-natureza-floral-folha-minimalista-feminino-fundo-vetor.jpg);
+    background-size:cover;
+    backdrop-filter: blur(20px);
+
+
 }
 
 .shop_body {
@@ -80,6 +84,7 @@ footer.container ul{
 }
 footer .container .redes_sociais i{
 margin-right: 16px;
+
 }
 footer .container ul > p{
     margin-bottom: 10px;
