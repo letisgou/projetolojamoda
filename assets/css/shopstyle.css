@@ -85,5 +85,10 @@ footer .container li{
 footer .container a{
     color: white;
 }
+body{
+    background-color: pink;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
